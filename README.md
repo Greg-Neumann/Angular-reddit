@@ -1,5 +1,8 @@
 # AngularReddit
 
+A clone of the Reddit chat application, in Angular. 
+This project is purely a self-training exercise for a novice web developer. Using Angular, I aim to learn some good code patterns outside of the UI such as Dependency Injection and HttpClient. This application is developed from the [Angular Training book](https://www.newline.co/ng-book/2/) fron Newline.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 ## Development server
