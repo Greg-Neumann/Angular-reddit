@@ -3,13 +3,16 @@
 
   <div class="field">
     <label for="title">Title:</label>
-    <input name="title" id="title" #newtitle>  <!-- changed -->
+    <input name="title" id="title" #newtitle>
   </div>
   <div class="field">
     <label for="link">Link:</label>
-    <input name="link" id="link" #newlink> <!-- changed -->
+    <input name="link" id="link" #newlink>
   </div>
-  
+  <!--
+    In the following button, it's input values 'newtitle' and 'newlink' are passed from the above by using the # notation on
+    the Input form. This causes Angular to assign the retrieved value to that local variable - which is an Object.
+  -->
   <button (click)="addArticle(newtitle, newlink)"
           class="ui positive right floated button">
     Submit link
