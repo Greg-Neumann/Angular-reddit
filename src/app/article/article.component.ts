@@ -16,13 +16,13 @@ export class ArticleComponent implements OnInit {
   // In the following @Input, the passed property - article - is an Array set in the caller
   // This default assignment is needed to ensure that the TS compiles with no null value
   // but, in effect, this next line is not executed to replace the caller's values
+  //
   @Input() article: Article = new Article('', ''); // default value
   //
   voteUp(): boolean {
     this.article.voteUp();
     //
-    // return false to stop propagation of the form's click event (as the URL
-    // does not yet exist)
+    // return false to stop propagation of the form's click event 
     //
     return false;
   }
